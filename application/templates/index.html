@@ -1,0 +1,11 @@
+{% load common_tags %}<h2> Django + Google App Engine + AngularJs </h2>
+<p>
+    I love Django. I love Google App Engine. I love AngularJs. I hated having to learn how to put it all together. Here is a skeleton example of how it all works.
+</p>
+<ul>
+    <li data-ng-repeat="resource in resources">
+        {% verbatim %}
+        <a href="{{ resource.url }}">{{ resource.name }}</a>
+        {% endverbatim %}
+    </li>
+</ul>

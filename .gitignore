@@ -33,3 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.database.db
+
+# because macs can be dumb
+.DS_Store
